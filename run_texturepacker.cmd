@@ -1,3 +1,3 @@
 @echo off
-java -cp "bin/;lib/*" com.hydrozoa.pokemon.util.TexturePackerTool
+java -cp "bin/;lib/*" com.gdx.pokemon.util.TexturePackerTool
 pause

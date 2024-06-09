@@ -1,4 +1,4 @@
-oldale_town		22	24		0	0
+oldale_town		22	24		7 13
 fillTerrain				GRASS
 
 
@@ -72,16 +72,23 @@ addFlowers	2	13
 addFlowers	3	14
 addFlowers	2	15
 addFlowers	3	16
-
-addObj	4	14	OLDALE_HOUSE
-addDoor	5	14
-
-addObj	14	5	OLDALE_HOUSE
-addDoor	15	5
+addFlowers	3	13
+addFlowers	2	14
+addFlowers	3	15
+addFlowers	2	16
+addFlowers	4	13
+addFlowers	4	14
+addFlowers	4	15
+addFlowers	4	16
+addFlowers	5	13
+addFlowers	5	14
+addFlowers	5	15
+addFlowers	5	16
 
 addFlowers		9	12
 addFlowers		10	11
 addFlowers		11	13
+
 addObj		11	12	SIGN	
 
 // placement of pokecenter
@@ -92,8 +99,6 @@ addDoor	6	5
 addObj	13	15	OLDALE_HOUSE
 addDoor	14	15
 
-
-addObj	9	16	BIG_TREE
 
 teleport		9 	0	GRASS	littleroot_town	12	21	SOUTH	WHITE
 teleport		10 	0	GRASS	littleroot_town	12	21	SOUTH	WHITE
